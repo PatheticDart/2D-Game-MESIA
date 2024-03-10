@@ -2640,7 +2640,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good hit. That's one less enemy to worry about.
+  m_text: '"INCOMING MISSILES RAVEN!"
+
+    Multiple warnings pop up on your HUD.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -12507,7 +12509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 630556934}
   m_Layer: 5
-  m_Name: Scene 6B (1)
+  m_Name: Scene 16B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15727,8 +15729,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You shoot your linear rifle at the MT. It goes down in a single hit. Without
-    any second thoughts, you move forward with your mission.
+  m_text: You make quick work of the enemy stealth units. Most of them going down
+    in a few shots.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -15737,8 +15739,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -16151,7 +16153,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good hit. That's one less enemy to worry about.
+  m_text: You shoot your grenade cannon in retaliation. A flash of bright light is
+    emitted from the barrel of your back weapon.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -16160,8 +16163,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -16307,13 +16310,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'An enemy AC appears on top of the structure.
-
-    "AC pilot detected,
-    callsign Sulla."
-
-    This is your first encounter with an enemy AC. You steel
-    yourself to prepare for the upcoming duel.'
+  m_text: Prior to this mission, no other enemy has been able to keep up with you.
+    Sulla is the first of many, and this duel will be a test of mettle. As the duel
+    goes on, the more weaponry gets used.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -18529,7 +18528,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good hit. That's one less enemy to worry about.
+  m_text: The grenade hits Sulla, critically damaging his AC and taking him down
+    as a result. You shift your sights to the unknown units.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -18538,8 +18538,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -21318,6 +21318,9 @@ MonoBehaviour:
   - {fileID: 549624994}
   - {fileID: 1738325662}
   - {fileID: 94461505}
+  - {fileID: 1832256527}
+  - {fileID: 1341591681}
+  - {fileID: 630556933}
   activeScene: 0
   armorValue: {fileID: 185750453}
   Stats: {fileID: 1979076623}
@@ -21694,7 +21697,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You pull out your trusty linear rifle and go for the laser artillery.
+  m_text: Even blurred, you still see Sulla's AC. It's glowing.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -21703,8 +21706,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -21984,7 +21987,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You decide to flank the enemy.
+  m_text: While dueling, Sulla manages to hit you with his bazooka. You lost 504
+    Armor Points.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -21993,8 +21997,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -24245,7 +24249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You scout the area. You spot three MTs and two laser artilley cannons.
+  m_text: Staggered by the hit, your surroundings start to blur.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -24834,7 +24838,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 41894f0ad173cb544a1fefa959d95923, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33306042cd492184c82c57804450d406, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25153,7 +25157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341591682}
   m_Layer: 5
-  m_Name: Scene 17
+  m_Name: Scene 16A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28628,7 +28632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good hit. That's one less enemy to worry about.
+  m_text: Dodging their laser fire, you close in on them using your assault boost.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -32539,7 +32543,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good hit. That's one less enemy to worry about.
+  m_text: You come back to your senses after a few seconds. You manage to evade Sulla's
+    laser missiles just in time.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
   m_sharedMaterial: {fileID: -8055102238669802635, guid: 1487d1138d00f74488d007667a1407bf, type: 2}
@@ -33088,7 +33093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832256528}
   m_Layer: 5
-  m_Name: Scene 16
+  m_Name: Scene 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34205,7 +34210,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2011374111}
+      - m_Target: {fileID: 1896232097}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -34232,6 +34237,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1076683927}
         m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
         m_MethodName: PauseManager
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1076683927}
+        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
+        m_MethodName: PlayerDamage5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
