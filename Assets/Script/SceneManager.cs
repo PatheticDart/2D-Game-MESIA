@@ -6,7 +6,8 @@ using TMPro;
 public class SceneManager : MonoBehaviour
 {
     public GameObject[] Scenes;
-    private int armorPoints = 10070, activeScene;
+    private int armorPoints = 10070;
+    public int activeScene;
     public TextMeshProUGUI armorValue;
     public GameObject Stats;
     public bool managerRunning = true;
