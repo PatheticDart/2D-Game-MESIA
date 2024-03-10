@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: cfe2d23d48907f0488f775fe1efa2869
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Akhand
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0a39a82bb1968b7479a4120394e454f0, type: 3}
+  - {fileID: 12800000, guid: e4d60d90e77320042be0493f2128091f, type: 3}
+  - {fileID: 12800000, guid: 5096953dc2d014c43b18714b8d351c69, type: 3}
+  - {fileID: 12800000, guid: 251f00e6c393bd74da8a54f6a21cb819, type: 3}
+  - {fileID: 12800000, guid: 369278d332c72c049aa9b92aec582a3f, type: 3}
+  - {fileID: 12800000, guid: b549580f84973a843af5f962005e31a0, type: 3}
+  - {fileID: 12800000, guid: 151c2324601132f4aad928d8d9e0a16a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

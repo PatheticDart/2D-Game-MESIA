@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 17b755bfbbeaf4f4aa2e01b3a4b6e25c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Georgia Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4243504c2d635ec44bb7d97aad8df046, type: 3}
+  - {fileID: 12800000, guid: 171394ac3e19ad747bc0a7bc1dda68a1, type: 3}
+  - {fileID: 12800000, guid: 92d3beee2220f924c8b24d058d67935d, type: 3}
+  - {fileID: 12800000, guid: e46b5b310ce5b5a4d93ec58500675f7b, type: 3}
+  - {fileID: 12800000, guid: 622845ca64f44614b81f5d4e7aed215f, type: 3}
+  - {fileID: 12800000, guid: 74ca44b41404bcb4eace9160e9f6ec39, type: 3}
+  - {fileID: 12800000, guid: 12979c7d3e5d3ec4ca10f0e9a0e2212e, type: 3}
+  - {fileID: 12800000, guid: c293f859ac3bd4e45a62fca7aec7f941, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
