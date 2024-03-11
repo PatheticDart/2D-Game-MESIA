@@ -54,7 +54,7 @@ public class SceneManager : MonoBehaviour
 
     public void RepairKit()
     {
-        armorPoints += 6000;
+        armorPoints += 2000;
     }
 
     public void ToggleStatsOn()
