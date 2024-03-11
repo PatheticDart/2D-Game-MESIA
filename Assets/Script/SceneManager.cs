@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class SceneManager : MonoBehaviour
@@ -22,12 +23,21 @@ public class SceneManager : MonoBehaviour
     void Update()
     {
         armorValue.text = armorPoints.ToString();
+
+        if (armorPoints > 10070)
+        {
+            armorPoints = 10070;
+        }
+
         if (armorPoints <= 0)
         {
             endingScene.SetActive(true);
+            Stats.SetActive(false);
         }
-
-        SceneChanger();
+        else
+        {
+            SceneChanger();
+        }
     }
 
     public void SceneChanger()
@@ -72,6 +82,11 @@ public class SceneManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void PlayerDamage50()
+    {
+        armorPoints -= 5035;
+    }
+
     public void PlayerDamage20()
     {
         armorPoints -= 2014;
@@ -100,5 +115,10 @@ public class SceneManager : MonoBehaviour
     public void ReturnToMenu()
     {
         activeScene = 0;
+    }
+
+    public void ResetAP()
+    {
+        armorPoints = 10070;
     }
 }
