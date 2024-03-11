@@ -6,6 +6,7 @@ using TMPro;
 public class SceneManager : MonoBehaviour
 {
     public GameObject[] Scenes;
+    public GameObject endingScene;
     private int armorPoints = 10070;
     public int activeScene;
     public TextMeshProUGUI armorValue;
@@ -21,6 +22,11 @@ public class SceneManager : MonoBehaviour
     void Update()
     {
         armorValue.text = armorPoints.ToString();
+        if (armorPoints <= 0)
+        {
+            endingScene.SetActive(true);
+        }
+
         SceneChanger();
     }
 
@@ -89,5 +95,10 @@ public class SceneManager : MonoBehaviour
     public void ResumeManager()
     {
         managerRunning = true;
+    }
+    
+    public void ReturnToMenu()
+    {
+        activeScene = 0;
     }
 }
