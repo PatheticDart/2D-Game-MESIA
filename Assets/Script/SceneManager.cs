@@ -7,8 +7,7 @@ using TMPro;
 public class SceneManager : MonoBehaviour
 {
     public GameObject[] Scenes;
-    public GameObject endingScene;
-    private int armorPoints = 10070;
+    public int armorPoints = 10070;
     public int activeScene;
     public TextMeshProUGUI armorValue;
     public GameObject Stats;
@@ -28,16 +27,12 @@ public class SceneManager : MonoBehaviour
         {
             armorPoints = 10070;
         }
+        else if (armorPoints <= 0)
+        {
+            armorPoints = 0;
+        }
 
-        if (armorPoints <= 0)
-        {
-            endingScene.SetActive(true);
-            Stats.SetActive(false);
-        }
-        else
-        {
-            SceneChanger();
-        }
+        SceneChanger();
     }
 
     public void SceneChanger()
@@ -54,7 +49,16 @@ public class SceneManager : MonoBehaviour
 
     public void NextScene()
     {
-        activeScene++;
+        if (armorPoints <= 0)
+        {
+            activeScene = 74;
+            Stats.SetActive(false);
+            armorPoints = 10070;
+        }
+        else
+        {
+            activeScene++;
+        }
     }
 
     public void StartButton()
@@ -64,7 +68,7 @@ public class SceneManager : MonoBehaviour
 
     public void RepairKit()
     {
-        armorPoints += 2000;
+        armorPoints += 6000;
     }
 
     public void ToggleStatsOn()
